@@ -3,17 +3,17 @@ import styles from "./Stats.module.css";
 export default function Stats({ stats }) {
   return (
     <ul className={styles.stats}>
-      <li>
-        <span>Followers</span>
-        <span>{stats.followers}</span>
+      <li className={styles.stylesItem}>
+        <span className={styles.statsName}>Followers</span>
+        <span className={styles.statsNumber}>{stats.followers}</span>
       </li>
-      <li>
-        <span>Views</span>
-        <span>{stats.views}</span>
+      <li className={styles.stylesItem}>
+        <span className={styles.statsName}>Views</span>
+        <span className={styles.statsNumber}>{stats.views}</span>
       </li>
-      <li>
-        <span>Likes</span>
-        <span>{stats.likes}</span>
+      <li className={styles.stylesItem}>
+        <span className={styles.statsName}>Likes</span>
+        <span className={styles.statsNumber}>{stats.likes}</span>
       </li>
     </ul>
   );

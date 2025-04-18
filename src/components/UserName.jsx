@@ -11,7 +11,7 @@ export default function UserName(props) {
       />
       <h2 className={styles.title}>{props.name}</h2>
       <p className={styles.text}>{props.tag}</p>
-      <p>{props.location}</p>
+      <p className={styles.location}>{props.location}</p>
     </div>
   );
 }

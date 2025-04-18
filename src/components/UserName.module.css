@@ -1,11 +1,23 @@
 .userContainer {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 24px;
   border-radius: 16px;
-  padding: 16px;
-  gap: 8px;
-  background: #fafafa;
-  border: 3px solid;
+}
+.title {
+  font-size: 26px;
+  margin: 10px;
+}
+.text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #818181;
+  margin: 10px;
+}
+.location {
+  font-size: 16px;
+  font-weight: 400;
+  color: #818181;
+  margin: 10px;
 }
